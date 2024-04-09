@@ -1,0 +1,74 @@
+.Container {
+	display: flex;
+	flex-direction: row;
+}
+
+.left-side {
+	flex: 1;
+	padding: 20px;
+	box-sizing: border-box;
+	background-color: rgb(247, 93, 66);
+}
+
+.right-side {
+	flex: 1;
+	padding: 20px;
+	box-sizing: border-box;
+	
+}
+
+.left-side h1 {
+	text-align: center;
+	margin-top: 0;
+	font-family: 'Sedgwick Ave', cursive;
+	font-size: 60px;
+	color: yellow;
+}
+
+.right-side h1 {
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 10px;
+	padding-bottom: 5px;
+	
+}
+.left-side p{
+	font-size: 40px;
+	padding-bottom: 100px;
+	font-family: 'Sedgwick Ave', cursive;
+
+}
+
+.right-side img{
+	text-align: center;
+	padding-bottom: 40px;
+}
+
+.right-side th{
+	border-bottom: 1px solid black;
+	font-size: 35px;
+	font-family: 'Sedgwick Ave', cursive;
+}
+.right-side td{
+	border-bottom: 1px solid black;
+	font-size: 35px;
+	font-family: 'Sedgwick Ave', cursive;
+}
+footer{
+	text-align: center;
+	padding-top: 40px;
+	font-size: 25px;
+}
+
+#div_tabela{
+	width: 100%;
+	height: 35%;
+	border-collapse: collapse;
+	margin: 20px, 10px, 0px, 10px;
+}
+#tabela{
+	width: 95%;
+	height: 100%;
+	font-size: 1.7em;
+	border-spacing: 2px;
+}

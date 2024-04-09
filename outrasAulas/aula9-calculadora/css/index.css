@@ -1,0 +1,72 @@
+body{
+	background-color: coral;
+}
+h1{
+	text-align: center;
+}
+.painel{
+	background-color: rgb(255, 255, 255);
+	margin: auto;
+	width: 355px;
+	height: 420px;
+	border-radius: 20px;
+	box-shadow: 5px 5px 5px rgb(179, 80, 44);
+	text-align: center;
+	border-color: black;
+	border-width: 2px;
+	border-style: solid	;
+}
+input{
+	margin-top: 20px;
+	height: 30px;
+	font-size: 30px;
+	width: 300px;
+	box-shadow: 2px 2px 5px;
+}
+
+#AC{
+	
+	margin-top: 30px;
+	margin-right: 30px;
+	margin-left: 10px;
+	
+}
+#barra{
+	margin-right: 80px;
+height: 50px;
+	width: 50px;
+	margin-left: 60px;
+}
+button{
+	height: 50px;
+	width: 50px;
+	font-size: 20px;
+	box-shadow: 1px 1px 4px;
+}
+
+
+#bt7,#bt4,#bt1{
+margin-top: 10px;
+margin-right: 20px;
+margin-left: 20px;
+}
+#bt8,#bt9,#btMultiplicar,#bt5,#bt6,#btSubtrair, #bt1,#bt2,#bt3,#btSomar{
+	margin-top: 10px;
+	margin-right: 20px;
+}
+#bt0{
+	margin-top: 10px;
+	margin-right: 90px;
+	margin-left: 20px;
+}
+#btVirgula,#btIgual{
+	margin-top: 10px;
+	margin-right: 20px;
+	
+	
+}
+
+.mensagem-igual {
+    font-size: 18px;
+    color: blue;
+}
