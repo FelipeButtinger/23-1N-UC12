@@ -158,29 +158,38 @@ header {
     .painel a {
          color: #333; font-size: 14px; text-align: center; text-decoration: none; }
 
-footer{
-    margin-top: 485px;
+footer {
     background-color: rgb(241, 115, 12);
     clear: both;
-    padding-bottom: 100px;
+    padding: 20px 0;
+    /* Ajuste a altura do padding conforme necessário */
+    position: fixed;
+    width: 100%;
+    bottom: 0;
 }
 
-.social a{
+.social {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    /* Centraliza os itens horizontalmente */
+    gap: 130px;
+    /* F */
+}
+
+.social li {
+    display: inline;
+}
+
+.social a {
     height: 32px;
     width: 32px;
     display: block;
     text-indent: -9999px;
-    margin-top: 50px;
-    height: 50px;
-    width: 50px;
-}
-
-.social li{
-    float: left;
-    padding-left: 210px;
-}
-.social{
-    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .social a[href*="https://www.facebook.com"]{
@@ -199,11 +208,7 @@ footer{
     
     
 }
-.logo-rodape{
-    height: 100px;
-    padding-left: 380px;
-   
-}
+
 
 .menu-opcoes a:hover{
     color: #007dc6;
@@ -226,6 +231,9 @@ footer{
 }
 .menu-conteudo ul ul li a:before {
     content: '- ';
+}
+.aula1, .aula2{
+    margin-bottom: 30%;
 }
 
 

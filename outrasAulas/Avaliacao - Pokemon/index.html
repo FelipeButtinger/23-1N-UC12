@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex Personalizada</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <audio id="background-music" src="./img/music.mp3" autoplay loop></audio>
+
+ 
+
+    <div class="pokedex-container">
+        <div class="display-screen">
+            <div id="pokemon-stats">
+                <img id="pokemon-sprite" src="" alt="Imagem do Pokémon">
+                <p id="pokemon-name"></p>
+                <p id="pokemon-type"></p>
+                <p id="pokemon-weight"></p>
+                <audio id="pokemon-sound" src=""></audio>
+            </div>
+
+            <div class="search-box">
+                <input type="number" id="pokemon-id" placeholder="Digite o ID do Pokémon">
+                <button onclick="fetchPokemon()">Buscar</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
